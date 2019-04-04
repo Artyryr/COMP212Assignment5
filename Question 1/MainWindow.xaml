@@ -1,0 +1,19 @@
+﻿<Window x:Class="Question_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Question_1"
+        mc:Ignorable="d"
+        Title="Stocks" Height="300" Width="500">
+    <Grid>
+        <DataGrid x:Name="dgrdStock" Height="201" Margin="10,10,10,0" VerticalAlignment="Top"/>
+        <StatusBar HorizontalAlignment="Left" Height="16" Margin="10,246,0,0" VerticalAlignment="Top" Width="475">
+
+            <ProgressBar x:Name="prBar" Height="6" Width="465" AutomationProperties.Name="progressBar"/>
+        </StatusBar>
+        <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Height="23" Margin="60,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" AutomationProperties.HelpText="Search" SpellCheck.IsEnabled="True" KeyDown="BtnSearch_Click" MouseDown="BtnSearch_Click" KeyUp="BtnSearch_Click"/>
+        <Label x:Name="label" Content="Search" HorizontalAlignment="Left" Margin="10,214,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.224,-0.462"/>
+
+    </Grid>
+</Window>
