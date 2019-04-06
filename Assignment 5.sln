@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Question 1", "Question 1\Question 1.csproj", "{B485B31D-A1B3-4B1D-893F-18A9AC7774AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlickrViewer", "FlickrViewer\FlickrViewer.csproj", "{F6FC7A70-9556-4D11-BD90-A5A919F4F7BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B485B31D-A1B3-4B1D-893F-18A9AC7774AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B485B31D-A1B3-4B1D-893F-18A9AC7774AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B485B31D-A1B3-4B1D-893F-18A9AC7774AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FC7A70-9556-4D11-BD90-A5A919F4F7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FC7A70-9556-4D11-BD90-A5A919F4F7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FC7A70-9556-4D11-BD90-A5A919F4F7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FC7A70-9556-4D11-BD90-A5A919F4F7BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
