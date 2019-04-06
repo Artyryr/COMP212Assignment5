@@ -5,15 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Question_1"
         mc:Ignorable="d"
-        Title="Stocks" Height="300" Width="500">
+        Title="Stocks" Height="332" Width="500">
     <Grid>
-        <DataGrid x:Name="dgrdStock" Height="201" Margin="10,10,10,0" VerticalAlignment="Top"/>
-        <StatusBar HorizontalAlignment="Left" Height="16" Margin="10,246,0,0" VerticalAlignment="Top" Width="475">
+        <DataGrid x:Name="dgrdStock" ItemsSource="{Binding Path=stocks}" Height="201" Margin="10,10,10,0" VerticalAlignment="Top"/>
+        <StatusBar Margin="2,283,2,2">
 
-            <ProgressBar x:Name="prBar" Height="6" Width="465" AutomationProperties.Name="progressBar"/>
+            <ProgressBar x:Name="prBar" Margin="2,2,2,2" Height="6" Width="480" AutomationProperties.Name="progressBar"/>
         </StatusBar>
         <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Height="23" Margin="60,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" AutomationProperties.HelpText="Search" SpellCheck.IsEnabled="True" KeyDown="BtnSearch_Click" MouseDown="BtnSearch_Click" KeyUp="BtnSearch_Click"/>
         <Label x:Name="label" Content="Search" HorizontalAlignment="Left" Margin="10,214,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.224,-0.462"/>
 
+        <Button x:Name="btnLoadData" Content="Load" HorizontalAlignment="Left" Margin="60,251,0,0" VerticalAlignment="Top" Width="150" Click="BtnLoadData_Click" />
+        <Label x:Name="label1" Content="Factorial" HorizontalAlignment="Left" Margin="235,214,0,0" VerticalAlignment="Top" Height="29" Width="55"/>
+        <TextBox x:Name="txtFactorialNum" HorizontalAlignment="Left" Height="23" Margin="297,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1_Copy" Content="Result" HorizontalAlignment="Left" Margin="235,248,0,0" VerticalAlignment="Top" Height="29" Width="55"/>
+        <Label x:Name="label1_Copy1" Content="Factorial" HorizontalAlignment="Left" Margin="235,214,0,0" VerticalAlignment="Top" Height="29" Width="55"/>
+        <TextBox x:Name="txtFactorialResult" HorizontalAlignment="Left" Height="23" Margin="297,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Button x:Name="btnCalculateFactorial" Content="Calcualte" HorizontalAlignment="Left" Margin="426,218,0,0" VerticalAlignment="Top" Width="59" Height="56" Click="BtnCalculateFactorial_Click"/>
     </Grid>
 </Window>
