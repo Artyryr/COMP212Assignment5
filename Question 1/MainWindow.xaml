@@ -16,11 +16,10 @@
         <Label x:Name="label" Content="Search" HorizontalAlignment="Left" Margin="10,214,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.224,-0.462"/>
 
         <Button x:Name="btnLoadData" Content="Load" HorizontalAlignment="Left" Margin="60,251,0,0" VerticalAlignment="Top" Width="150" Click="BtnLoadData_Click" />
-        <Label x:Name="label1" Content="Factorial" HorizontalAlignment="Left" Margin="235,214,0,0" VerticalAlignment="Top" Height="29" Width="55"/>
-        <TextBox x:Name="txtFactorialNum" HorizontalAlignment="Left" Height="23" Margin="297,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="label1_Copy" Content="Result" HorizontalAlignment="Left" Margin="235,248,0,0" VerticalAlignment="Top" Height="29" Width="55"/>
-        <Label x:Name="label1_Copy1" Content="Factorial" HorizontalAlignment="Left" Margin="235,214,0,0" VerticalAlignment="Top" Height="29" Width="55"/>
-        <TextBox x:Name="txtFactorialResult" HorizontalAlignment="Left" Height="23" Margin="297,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
-        <Button x:Name="btnCalculateFactorial" Content="Calcualte" HorizontalAlignment="Left" Margin="426,218,0,0" VerticalAlignment="Top" Width="59" Height="56" Click="BtnCalculateFactorial_Click"/>
+        <TextBox x:Name="txtFactorialNum" HorizontalAlignment="Left" Height="23" Margin="292,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1_Copy" Content="Result" HorizontalAlignment="Left" Margin="230,248,0,0" VerticalAlignment="Top" Height="29" Width="55"/>
+        <Label x:Name="label1_Copy1" Content="Factorial" HorizontalAlignment="Left" Margin="230,214,0,0" VerticalAlignment="Top" Height="29" Width="55"/>
+        <TextBox x:Name="txtFactorialResult" HorizontalAlignment="Left" Height="23" Margin="292,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Button x:Name="btnCalculateFactorial" Content="Calcualte" Margin="417,216,10,0" VerticalAlignment="Top" Height="58" Click="BtnCalculateFactorial_Click"/>
     </Grid>
 </Window>

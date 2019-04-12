@@ -147,10 +147,6 @@ namespace FlickrViewer
                     }
                 }
                 catch { }
-                //catch (Exception exception)
-                //{
-                //    MessageBox.Show(exception.Message);
-                //}
             });
         }
         private async void btnSaveAll_ClickAsync(object sender, EventArgs e)
@@ -166,6 +162,7 @@ namespace FlickrViewer
                             ResizeImage(p, width);
                         });
                     });
+
                 }
                 else
                 {
